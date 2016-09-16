@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/urcapital/go-ur/common"
 
-	"github.com/sammy007/open-ethereum-pool/rpc"
-	"github.com/sammy007/open-ethereum-pool/storage"
-	"github.com/sammy007/open-ethereum-pool/util"
+	"github.com/urcapital/ur-pool/rpc"
+	"github.com/urcapital/ur-pool/storage"
+	"github.com/urcapital/ur-pool/util"
 )
 
 const txCheckInterval = 5 * time.Second
