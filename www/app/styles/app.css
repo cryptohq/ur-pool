@@ -15,11 +15,7 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background: #353994; /* Old browsers */
-  background: -moz-linear-gradient(left,  #353994 0%, #49c0f0 19%, #45b85e 41%, #f2ed55 61%, #ef3f37 82%, #eb3f97 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left,  #353994 0%,#49c0f0 19%,#45b85e 41%,#f2ed55 61%,#ef3f37 82%,#eb3f97 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right,  #353994 0%,#49c0f0 19%,#45b85e 41%,#f2ed55 61%,#ef3f37 82%,#eb3f97 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#353994', endColorstr='#eb3f97',GradientType=1 ); /* IE6-9 */
+  background-color: #f5f5f5;
 }
 
 
