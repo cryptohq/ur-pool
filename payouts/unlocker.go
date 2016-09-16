@@ -198,7 +198,7 @@ func matchCandidate(block *rpc.GetBlockReply, candidate *storage.BlockData) bool
 }
 
 func (u *BlockUnlocker) handleBlock(block *rpc.GetBlockReply, candidate *storage.BlockData) error {
-	// Initial 5 Ether static reward
+	// Initial 5 UR static reward
 	reward := new(big.Int).Set(constReward)
 
 	correctHeight, err := strconv.ParseInt(strings.Replace(block.Number, "0x", "", -1), 16, 64)

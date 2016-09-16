@@ -48,7 +48,7 @@ func FormatReward(reward *big.Int) string {
 }
 
 func FormatRatReward(reward *big.Rat) string {
-	wei := new(big.Rat).SetInt(common.Ether)
+	wei := new(big.Rat).SetInt(common.UR)
 	reward = reward.Quo(reward, wei)
 	return reward.FloatString(8)
 }
