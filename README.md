@@ -28,8 +28,8 @@ The following build instructions are based on Ubuntu 16.04 LTS.
 ### Building UI on Linux
 
   cd www
-  npm install
-  bower install --allow-root
+  npm i
+  bower i --allow-root
   ./build.sh
 
 If there is a problem finding node run,

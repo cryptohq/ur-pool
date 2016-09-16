@@ -15,7 +15,11 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: #f5f5f5;
+  background: #353994; /* Old browsers */
+  background: -moz-linear-gradient(left,  #353994 0%, #49c0f0 19%, #45b85e 41%, #f2ed55 61%, #ef3f37 82%, #eb3f97 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #353994 0%,#49c0f0 19%,#45b85e 41%,#f2ed55 61%,#ef3f37 82%,#eb3f97 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #353994 0%,#49c0f0 19%,#45b85e 41%,#f2ed55 61%,#ef3f37 82%,#eb3f97 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#353994', endColorstr='#eb3f97',GradientType=1 ); /* IE6-9 */
 }
 
 
@@ -52,7 +56,7 @@ code {
 
 .navbar-default {
 	background-color: #04191f;
-	border-color: #69102b;
+	border-color: #EB3F97;
 }
 .navbar-default .navbar-brand {
 	color: #dadada;
@@ -71,17 +75,17 @@ code {
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: #ffffff;
-	background-color: #0a6c9d;
+	background-color: #3AADE2;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
 	color: #ffffff;
-	background-color: #69102b;
+	background-color: #EB3F97;
 }
 .navbar-default .navbar-toggle {
-	border-color: #0a6c9d;
+	border-color: #3AADE2;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: #0a6c9d;
+	background-color: #3AADE2;
 }
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #dadada;
@@ -106,7 +110,7 @@ code {
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
 		color: #ffffff;
-		background-color: #0a6c9d;
+		background-color: #3AADE2;
 	}
 }
 
@@ -144,7 +148,7 @@ span.logo-3 {
 
 .note-danger {
 	background-color: #ff9999;
-	border-color: #ff0000;
+	border-color: #EF3F37;
 }
 
 h4.note {
