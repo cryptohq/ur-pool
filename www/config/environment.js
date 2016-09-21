@@ -15,18 +15,18 @@ module.exports = function(environment) {
 
     APP: {
       // API host and port
-      ApiUrl: '//104.131.142.16/',
+      ApiUrl: '//urpool.cryptohq.io/',
 
       // HTTP mining endpoint
-      HttpHost: '104.131.142.16',
+      HttpHost: 'urpool.cryptohq.io',
       HttpPort: 8888,
 
       // Stratum mining endpoint
-      StratumHost: '104.131.142.16',
+      StratumHost: 'urpool.cryptohq.io',
       StratumPort: 8008,
 
       // Fee and payout details
-      PoolFee: '1%',
+      PoolFee: '0.5%',
       PayoutThreshold: '0.5 UR',
 
       // For network hashrate (change for your favourite fork)
